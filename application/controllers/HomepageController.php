@@ -10,6 +10,6 @@ class HomepageController extends CI_Controller {
 		 * Thus i have made a view helper to avoid loading important layouts such as the navigation and the footer
 		 * Feel free to use it lol. 
 		 */
-		$this->load->view('homepage')
+		$this->load->view('homepage');
 	}
 }
